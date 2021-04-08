@@ -1,4 +1,4 @@
-### These notes are relevant for the Python and Flask Bootcamp by Jose Portilla
+#### These notes are relevant for the Python and Flask Bootcamp by Jose Portilla
 
 # Pre-requisites:
 
@@ -21,8 +21,8 @@ Now to install the packages in requirements.txt, install as below:
 
 --------------------------------------------------------------------------
 # Python and Flask 
-```
+
 * Python is the coding language that allows us to use the Flash web framework.
 * Flask renders HTML templates, can edit them with Jinja, and communicate with a database through the use of libraries such as SQLAlchemy (Flask-SQLAlchemy)
-```
+
 
