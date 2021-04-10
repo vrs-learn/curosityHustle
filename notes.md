@@ -26,7 +26,7 @@ Now to install the packages in requirements.txt, install as below:
 
 --------------------------------------------------------------------------
 
-# HTML Crash
+# HTML Crash (Check 00-HTML-Crash-Course for examples)
 
 ## Html Tags
 Two main tags - head & body
@@ -52,8 +52,8 @@ alt -> this attribute can be used when the "src" linked image or object is not a
 a (Anchor) tag with "href" -> Used to link to another website OR to another webpage stored locally.
 
 ## Html Forms
-<form> -> tag to setup form
-<input> -> tag to accept user information
+form -> tag to setup form
+input -> tag to accept user information
 
 ### Input tag attributes:
 type -> tells the browser what actual type of text it has to render (default "text"). 
@@ -61,12 +61,26 @@ Other values:
 * "password" (Hides the text when entered in browser)
 * "email"
 * "submit" (This adds a button)
+* "radio"
 name -> identifier of the input value which can be used further
 value -> actual value to be transmitted or displayed
+placeholder -> provides a diffused text which is shown in the webpage. This text goes away as soon as the user starts writing something in it.
 
 ### Html Form labels
 Two main methods of submitting form information:
-* GET
-* POST
+* GET (requests a represntation of specified resource. It sends back the information to our action URL)
+* POST (submits data to be processed)
 
+#### Using Form, labels and actions:
+* label -> tag that provides a label for another tagged id.
+* action -> attribute of form tag. It contains a target URL to be triggered once a submit button is clicked.
+* method -> get or post. attribute of form tag.
 
+When using an action and method attributes in the form tag, when a submit is hit on the webpage, the values mentioned in the form are passed as parameters to the URL mentioned in the action tag.
+
+### Linking Radio buttons, Drop Down menus and Text area inputs.
+To link radio buttons, use same name in both the input tags.
+```xml
+<input type="radio" id="yes" name="dog_choice" value="yes">
+<input type="radio" id="no" name="dog_choice" value="no">
+```
