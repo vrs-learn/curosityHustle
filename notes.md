@@ -47,7 +47,7 @@ both the tags can be nested, i.e can be put into one another. The browser is sma
 Divs and Spans allows us to segment portions of our HTML.
 
 ## Html attributes
-src -> this attribute can be used in "img" tag to link an image or object
+src -> this attribute can be used in "img" tag to link an image or object.
 alt -> this attribute can be used when the "src" linked image or object is not available. Can have any text or something.
 a (Anchor) tag with "href" -> Used to link to another website OR to another webpage stored locally.
 
@@ -57,10 +57,10 @@ a (Anchor) tag with "href" -> Used to link to another website OR to another webp
 
 ### Input tag attributes:
 type -> tells the browser what actual type of text it has to render (default "text"). 
-        Other values:
-            * "password" (Hides the text when entered in browser)
-            * "email"
-            * "submit" (This adds a button)
+Other values:
+* "password" (Hides the text when entered in browser)
+* "email"
+* "submit" (This adds a button)
 name -> identifier of the input value which can be used further
 value -> actual value to be transmitted or displayed
 
