@@ -98,3 +98,25 @@ render_template('basic.html',my_variable=my_variable)
 # jose
 # {{ name |capitalize }}    - Using this filter (which is also a Python funtion to a string, it can be used as filter to quickly take action on the name variable.)
 # Jose
+
+# :::: LINKS TO OTHER PAGES ::::
+#
+# Flask comes with very convenient url_for() helper function that allows us to easily connect other template pages or files within our templates.
+# This basically allows us to connect to python functions that are linked to routes, to be used in HTML page.
+# Below is its usage:
+#
+'''
+<a class="navbar-brand href="{{ url_for('index') }}">Puppies Rock!!</a>        # This url_for() now links to the function thats declared inside the python flask script.
+'''
+# :::: LINKS TO FILES ::::
+#
+# We can also link to images or media by using the anchor tags with url_for as below:
+# We use the 'static' for the type of media and then inside filename we provide the filename which needs to be linked 
+'''
+<a href="{{ url_for('static',filename='car.jpg') }}">Here</a>   # 
+'''
+
+#
+# :::: FORMS ::::
+#
+# Linking forms with Flask.
