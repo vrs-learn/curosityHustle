@@ -1,0 +1,40 @@
+:root{
+    --clr-neutral-900: rgb(41, 46, 51);
+    --clr-neutral-100: hsl(0,0%,100%);
+    --clr-accent-400: hsl(142,90%,  61%);
+}
+
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    //place-items: center;
+    line-height: 1.6;
+    background: var(--clr-neutral-900);
+    font-family: sans-serif;
+    color: var(--clr-neutral-400);
+}
+
+.card{
+    color: var(--clr-neutral-100);
+    background-image: url(img/study.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+}
+
+.card-content{
+    padding: 1.5em;
+    background: linear-gradient(
+        hsl(0 0% 0% / 0 ),
+        hsl(20 0% 0% / .3 ) 10%,
+        hsl(0 0% 0% / 1)
+    );
+
+}

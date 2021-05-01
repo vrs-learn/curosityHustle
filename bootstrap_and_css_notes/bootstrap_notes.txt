@@ -1,0 +1,44 @@
+In Total there are 12 columns in a bootstrap
+
+div class:
+    container - partial screen
+    containter-fluid - full width
+    container-md - partial screen
+
+
+    
+<div class="row">
+    <div class="col-md-8">Main content</div> -> This col-md-8 takes 8 columns out of 12
+    <div class="col-md-4">Sidebar</div>      -> This col-md-4 takes 4 columns out of 12
+</div>    
+
+
+div class="row gx-1" upto gx-5  --> This is for Gutter X axis.
+div class="row gy-1" upto gy-5  --> This is for Gutter Y axis.
+
+
+For Buttons classes are:
+
+btn btn-primary     --> blue color
+btn btn-secondary   --> grey color
+btn btn-success
+btn btn-danger
+btn btn-info
+btn btn-light
+btn btn-dark
+btn btn-link
+
+Also we have :
+
+btn btn-outline-primary
+btn btn-outline-secondary
+btn btn-outline-success
+.
+.
+and so on...
+
+in conjunction with above, we can decide the size of the button like:
+btn-lg      -> for large
+btn-sm      -> for small
+
+<hr> -> Thematic break. Creates a line
